@@ -1,12 +1,12 @@
 # emscripten dev environment
 *based upon ubuntu/trusty64*
 
-* Download and install [Vagrant](https://www.vagrantup.com/).
+* download and install [Vagrant](https://www.vagrantup.com/).
 
-* Create the folder where you want to install your VM and then:
+* create the folder where you want to install your VM and then:
 
 ```bash
-git clone https://github.com/apetrozzelli/emscripten.git .
+git clone https://github.com/apetrozzelli/emscripten.git
 vagrant up
 ```
 
@@ -17,7 +17,7 @@ It will take some time as it is going to:
 
 Each user must perform the following steps once:
 
-* Login with *vagrant* as user and *vagrant* as password:
+* login with *vagrant* as user and *vagrant* as password:
 
 ```bash
 cd /home/vagrant/emsdk/emsdk_portable
@@ -25,7 +25,7 @@ cd /home/vagrant/emsdk/emsdk_portable
 source ./emsdk_env.sh
 ```
 
-* To confirm everything is ok:
+* to confirm everything is ok:
 
 ```bash
 vagrant@vagrant-ubuntu-trusty-64:~/emsdk/emsdk_portable$ emcc --version
