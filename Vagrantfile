@@ -74,7 +74,6 @@ Vagrant.configure(2) do |config|
     curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
     sudo apt-get install -y nodejs
   # see http://kripken.github.io/emscripten-site/docs/getting_started/downloads.html#windows-osx-and-linux-installing-the-portable-sdk
-    rm -rf ./emsdk
     mkdir ./emsdk
     cd ./emsdk/
     rm -rf ./emsdk-portable.tar.gz*
@@ -84,7 +83,9 @@ Vagrant.configure(2) do |config|
     cd emsdk_portable/
     ./emsdk update
     ./emsdk install latest
-    ./emsdk activate latest
-  # source ./emsdk_env.sh
+	echo "Installation completed. Execute the following commands once connected with your user:"
+	echo "cd ${PWD}"
+	echo "./emsdk activate latest"
+    echo "source ./emsdk_env.sh"
   SHELL
 end
