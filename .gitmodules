@@ -1,0 +1,3 @@
+[submodule "dependencies/ubuntu"]
+	path = dependencies/ubuntu
+	url = https://github.com/boxcutter/ubuntu.git
