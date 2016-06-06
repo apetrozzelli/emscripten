@@ -1,6 +1,8 @@
 # emscripten dev environment
 *based upon ubuntu/trusty64*
 
+[![Build Status](https://travis-ci.org/apetrozzelli/emscripten.svg?branch=master)](https://travis-ci.org/apetrozzelli/emscripten)
+
 * download and install [Vagrant](https://www.vagrantup.com/).
 
 * create the folder where you want to install your VM and then:
