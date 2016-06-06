@@ -11,7 +11,6 @@
   # see https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions
     curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
     sudo apt-get install -y nodejs
-	sudo apt-get autoremove -y
   # see http://kripken.github.io/emscripten-site/docs/getting_started/downloads.html#windows-osx-and-linux-installing-the-portable-sdk
     mkdir ./emsdk
     cd ./emsdk/
