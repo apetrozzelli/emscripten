@@ -22,6 +22,11 @@ Each user must perform the following steps once:
 ```bash
 cd /home/vagrant/emsdk/emsdk_portable
 ./emsdk activate latest
+```
+
+And the following step after each login:
+
+```bash
 source ./emsdk_env.sh
 ```
 
@@ -35,6 +40,18 @@ This is free and open source software under the MIT license.
 There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 vagrant@vagrant-ubuntu-trusty-64:~/emsdk/emsdk_portable$
+```
+
+To compile and run the simplest program built with emscripten:
+
+```bash
+cd ~
+mkdir helloworld
+cd helloworld
+cp ~/emsdk/emsdk_portable/emscripten/master/tests/hello_world.cpp .
+emcc hello_world.cpp
+vagrant@vagrant:~/helloworld$ node a.out.js
+hello, world!
 ```
 
 # Go!
