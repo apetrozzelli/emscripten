@@ -17,7 +17,7 @@ It will take some time as it is going to:
 * download and install prerequisites
 * download, build and install [emscripten SDK](http://kripken.github.io/emscripten-site/)
 
-If you get an error like the following:
+> If you get an error like the following:
 
 ```bash
 The private key to connect to this box via SSH has invalid permissions
@@ -26,7 +26,7 @@ ignore the key. Vagrant tried to do this automatically for you but failed. Pleas
 permissions on the following file to 0600 and then try running this command again:
 ```
 
-As suggested by the error message (which is not reported here fully) this is most likely because the file-system you are using does not support file permissions, e.g. FAT/NTFS on an USB thumb-drive.
+> As suggested by the error message (which is not reported here fully) this is most likely because the file-system you are using does not support file permissions, e.g. FAT/NTFS on an USB thumb-drive.
 The easiest way to overcome this limitation is to move the private_key file to your home directory and create a link to it:
 
 ```bash
