@@ -64,7 +64,7 @@ hello, world!
 
 > If you get an error like the following:
 
-```bash
+```
 The private key to connect to this box via SSH has invalid permissions
 set on it. The permissions of the private key should be set to 0600, otherwise SSH will
 ignore the key. Vagrant tried to do this automatically for you but failed. Please set the
