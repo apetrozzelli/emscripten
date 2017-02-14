@@ -8,7 +8,9 @@
 * create the folder where you want to install your VM and then:
 
 ```bash
+mkdir data
 git clone https://github.com/apetrozzelli/emscripten.git
+cd emscripten
 vagrant up
 ```
 
