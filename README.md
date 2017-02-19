@@ -78,3 +78,10 @@ The easiest way to overcome this limitation is to move the private_key file to y
 mv .vagrant/machines/default/virtualbox/private_key ~
 ln -s ~/private_key .vagrant/machines/default/virtualbox/private_key
 ```
+> If you get an error like the following one instead:
+
+```
+CMake 3.4.3 or higher is required.  You are running version 2.8.12.2
+```
+
+You are probably running on older distro which does not have access to recent versions of CMake. Unfortunately this is an [emscrtipten SDK](http://kripken.github.io/emscripten-site/docs/getting_started/downloads.html) requirement.
