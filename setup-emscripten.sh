@@ -7,8 +7,8 @@
     wget http://www.cmake.org/files/v3.5/cmake-3.5.2.tar.gz
     tar xf cmake-3.5.2.tar.gz
     cd cmake-3.5.2
-    ./configure
-    make && sudo make install 
+    sudo ./configure
+    sudo make && sudo make install 
     cd .. 
     export PATH=/usr/local/bin:$PATH
     export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH

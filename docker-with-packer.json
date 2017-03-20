@@ -1,0 +1,15 @@
+{
+  "builders": [
+      {
+         "type": "docker",
+         "image": "ubuntu",
+         "commit": true,
+"changes": [
+        "VOLUME /test1 /test2",
+        "LABEL maintainer apetrozzelli@gmail.com"
+           ],
+        "author": "apetrozzelli@gmail.com" 
+      }
+  ]
+}
+
