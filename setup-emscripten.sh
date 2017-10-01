@@ -26,8 +26,8 @@
     rm -rf ./emsdk-portable.tar.gz*
     wget https://s3.amazonaws.com/mozilla-games/emscripten/releases/emsdk-portable.tar.gz
     tar -xvf ./emsdk-portable.tar.gz
-    chmod o+w emsdk_portable/
-    cd emsdk_portable/
+    chmod o+w emsdk-portable/
+    cd emsdk-portable/
     ./emsdk update
     ./emsdk install latest
 	echo "Installation completed. Execute the following commands once connected with your user:"
